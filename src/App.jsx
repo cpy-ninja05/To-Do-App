@@ -4,13 +4,6 @@ import { TodoList } from "./components/TodoList"
 import { TodoInput } from "./components/TodoInput"
 import { useState, useEffect } from "react"
 function App() {
-  // const todos = [
-  //   { title: "Task 1", completed: false },
-  //   { title: "Task 2", completed: true },
-  //   { title: "Task 3", completed: false },
-  //   { title: "Task 4", completed: true }
-  // ]
-
   const [todos,setTodos] = useState([
     { title: "Task 1", completed: false }
   ])
